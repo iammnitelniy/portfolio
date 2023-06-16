@@ -1,7 +1,14 @@
 .nav {
     border: 1px solid red;
+    width: 300px;
     display: flex;
-    justify-content: flex-start; /*выравнивает по главной оси  align items по второстепенной*/
+    /*выравнивает по главной оси  align items по второстепенной*/
+    justify-content: space-between;
+    padding: 0.5em;
 
+
+}
+
+.nav a {
 
 }
