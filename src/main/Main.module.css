@@ -1,0 +1,11 @@
+.mainBlock {
+    height: 100vh;
+    background-color: bisque;
+
+}
+
+
+.text {
+        width: 300px;
+        background-color: white;
+}
