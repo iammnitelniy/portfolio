@@ -4,7 +4,7 @@ import Skill from "./skill/Skill";
 
 
 export const Skills = () => {
-    const skillsArray: number[] = [1, 2, 3, 4, 5]
+    const skillsArray: number[] = [1, 2, 3]
 
 
     return (
@@ -14,7 +14,7 @@ export const Skills = () => {
 
                 <div className={s.skills}>
                     {skillsArray.map((el)=> {
-                        return<Skill key={el} description={'HARDCODE'} title={'HARCODE LOREM IPSUN DOLOR ATS ARANTES DO NASIMENTU BEG LOAYAL'}/>
+                        return<Skill key={el} description={'HARCODE LOREM IPSUN DOLOR ATS ARANTES DO NASIMENTU BEG LOAYAL'} title={'Hardcode'}/>
 
                     })}
 
