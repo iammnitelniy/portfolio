@@ -1,6 +1,7 @@
 import './App.css'
 import {Header} from "./Header/Header";
 import {Main} from "./main/Main";
+import {Skills} from "./skills/Skills";
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
         <div className='App'>
             <Header/>
             <Main/>
+            <Skills/>
 
 
         </div>
